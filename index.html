@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ISRO - Government of India</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/timeline.css" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+		<script src="js/script.js" defer></script>
+		<script src="js/timeline.js" defer></script>
+	</head>
+	<body>
+		<!-- <h1>ISRO</h1> -->
+		<header class="main-header">
+			<!-- <div></div> -->
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/isro_logo.svg" alt="ISRO-logo" />
+				</a>
+			</div>
+			<!-- <div class="logo">
+            <a href="index.html">
+                <img src="img/emblem_of_india.svg" alt="gov-logo">
+            </a>
+        </div> -->
+			<nav class="desktop-main-menu">
+				<ul>
+					<li><a href="#mission">Missions</a></li>
+					<li><a href="missions.html">Spacecraft</a></li>
+					<li><a href="missions.html">Launchers</a></li>
+					<li><a href="missions.html">Applications</a></li>
+					<li><a href="missions.html">Media</a></li>
+					<li><a href="missions.html">About</a></li>
+					<li><a href="missions.html">Chandrayaan 2</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- section a -->
+		<section class="section-a" id="mission">
+			<div class="section-inner">
+				<!-- <h4>Upcoming Launch</h4> -->
+				<img class="chandrayaan" src="img/chandrayaan.png" alt="chandrayaan" />
+				<h4>Expanding the boundaries of human knowledge</h4>
+				<div class="btn animate">
+					<div class="hover"></div>
+					<button class="button-40" role="button">Learn More</button>
+				</div>
+			</div>
+			<div class="scroll-arrow">
+				<svg width="40px" height="30px">
+					<path
+						stroke="black"
+						fill="none"
+						stroke-width="4px"
+						d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+					></path>
+				</svg>
+			</div>
+		</section>
+
+		<section class="section-b">
+			<div class="section-inner-b">
+				<!-- <h4>Upcoming Launch</h4> -->
+				<h2>Missions</h2>
+				<h4>
+					Our vision is to harness space technology for national development,
+					while pursuing space science research and planetary exploration.
+				</h4>
+				<div class="btn animate">
+					<div class="hover"></div>
+					<button class="button-40" role="button">Explore Mangalyaan</button>
+				</div>
+			</div>
+			<div class="scroll-arrow">
+				<svg width="40px" height="30px">
+					<path
+						stroke="black"
+						fill="none"
+						stroke-width="4px"
+						d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+					></path>
+				</svg>
+			</div>
+		</section>
+
+		<section class="section-c">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<h2 style="text-align: center">Communication Satellites</h2>
+					<div class="numbertext">1 / 3</div>
+					<img src="img/comms.jpeg" style="width: 60vw; height: 60vh" />
+					<div class="text">
+						Supports telecommunication, television broadcasting, satellite news
+						gathering, societal applications, weather forecasting, disaster
+						warning and Search and Rescue operation services.
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<h2 style="text-align: center">Earth Observation Satellites</h2>
+					<div class="numbertext">2 / 3</div>
+					<img src="img/earth_obs.jpeg" style="width: 60vw; height: 60vh" />
+					<div class="text">
+						The largest civilian remote sensing satellite constellation in the
+						world - thematic series of satellites supporting multitude of
+						applications in the areas of land and water resources; cartography;
+						and ocean & atmosphere.
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<h2 style="text-align: center">Scientific Satellites</h2>
+					<div class="numbertext">3 / 3</div>
+					<img
+						src="img/scientific_sat.webp"
+						style="width: 60vw; height: 60vh"
+					/>
+					<div class="text">
+						Spacecraft for research in areas like astronomy, astrophysics,
+						planetary and earth sciences, atmospheric sciences and theoretical
+						physics.
+					</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+			</div>
+			<br />
+
+			<div style="text-align: center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			<div class="btn animate">
+				<div class="hover"></div>
+				<button
+					class="button-40"
+					role="button"
+					style="margin-top: 25px; margin-bottom: 25px"
+				>
+					Explore More
+				</button>
+			</div>
+		</section>
+
+		<section class="section-d">
+			<div class="ag-timeline-block">
+				<div class="ag-timeline_title-box">
+					<div class="ag-timeline_tagline">About ISRO</div>
+					<!-- <div class="ag-timeline_title">No Flex</div> -->
+				</div>
+				<section class="ag-section">
+					<div class="ag-format-container">
+						<div class="js-timeline ag-timeline">
+							<div class="js-timeline_line ag-timeline_line">
+								<div
+									class="js-timeline_line-progress ag-timeline_line-progress"
+								></div>
+							</div>
+							<div class="ag-timeline_list">
+								<div class="js-timeline_item ag-timeline_item">
+									<div class="ag-timeline-card_box">
+										<div
+											class="js-timeline-card_point-box ag-timeline-card_point-box"
+										>
+											<div class="ag-timeline-card_point">1962</div>
+										</div>
+										<div class="ag-timeline-card_meta-box">
+											<div class="ag-timeline-card_meta">Bare Beginnings</div>
+										</div>
+									</div>
+									<div class="ag-timeline-card_item">
+										<div class="ag-timeline-card_inner">
+											<div class="ag-timeline-card_img-box">
+												<img
+													src="https://www.isro.gov.in/sites/default/files/about/story1.jpg"
+													class="ag-timeline-card_img"
+													width="640"
+													height="360"
+												/>
+											</div>
+											<div class="ag-timeline-card_info">
+												<!-- <div class="ag-timeline-card_title">Season 13</div> -->
+												<div class="ag-timeline-card_desc">
+													India decided to go to space when Indian National
+													Committee for Space Research (INCOSPAR) was set up by
+													the Government of India in 1962. With the visionary Dr
+													Vikram Sarabhai at its helm, INCOSPAR set up the
+													Thumba Equatorial Rocket Launching Station (TERLS) in
+													Thiruvananthapuram for upper atmospheric research.
+												</div>
+											</div>
+										</div>
+										<div class="ag-timeline-card_arrow"></div>
+									</div>
+								</div>
+
+								<div class="js-timeline_item ag-timeline_item">
+									<div class="ag-timeline-card_box">
+										<div class="ag-timeline-card_meta-box">
+											<div class="ag-timeline-card_meta">Genesis</div>
+										</div>
+										<div
+											class="js-timeline-card_point-box ag-timeline-card_point-box"
+										>
+											<div class="ag-timeline-card_point">1969</div>
+										</div>
+									</div>
+									<div class="ag-timeline-card_item">
+										<div class="ag-timeline-card_inner">
+											<div class="ag-timeline-card_img-box">
+												<img
+													src="https://tfipost.com/wp-content/uploads/2022/08/Vikram-Sarabhai-ISRO-India.jpg"
+													class="ag-timeline-card_img"
+													width="640"
+													height="360"
+													alt=""
+												/>
+											</div>
+											<div class="ag-timeline-card_info">
+												<div class="ag-timeline-card_title">Season 12</div>
+												<div class="ag-timeline-card_desc">
+													Indian Space Research Organisation, formed in 1969,
+													superseded the erstwhile INCOSPAR. Vikram Sarabhai,
+													having identified the role and importance of space
+													technology in a Nation's development, provided ISRO
+													the necessary direction to function as an agent of
+													development. ISRO then embarked on its mission to
+													provide the Nation space based services and to develop
+													the technologies to achieve the same independently
+												</div>
+											</div>
+										</div>
+										<div class="ag-timeline-card_arrow"></div>
+									</div>
+								</div>
+
+								<div class="js-timeline_item ag-timeline_item">
+									<div class="ag-timeline-card_box">
+										<div
+											class="js-timeline-card_point-box ag-timeline-card_point-box"
+										>
+											<div class="ag-timeline-card_point">1972</div>
+										</div>
+										<div class="ag-timeline-card_meta-box">
+											<div class="ag-timeline-card_meta">Aryabhatta</div>
+										</div>
+									</div>
+									<div class="ag-timeline-card_item">
+										<div class="ag-timeline-card_inner">
+											<div class="ag-timeline-card_img-box">
+												<img
+													src="https://www.ursc.gov.in/experimental-satellites/images/aryabhata1.jpg"
+													class="ag-timeline-card_img"
+													width="640"
+													height="360"
+													alt=""
+												/>
+											</div>
+											<div class="ag-timeline-card_info">
+												<!-- <div class="ag-timeline-card_title">Season 11</div> -->
+												<div class="ag-timeline-card_desc">
+													Under the government of Indira Gandhi, INCOSPAR was
+													superseded by ISRO. Later in 1972, a space commission
+													and Department of Space (DOS) were set up to oversee
+													space technology development in India specifically and
+													ISRO was brought under DOS, institutionalising space
+													research in India and forging the Indian space program
+													into its existing form. India joined the Soviet
+													Interkosmos program for space cooperation[22] and got
+													its first satellite Aryabhatta in orbit through a
+													Soviet rocket.
+												</div>
+											</div>
+										</div>
+										<div class="ag-timeline-card_arrow"></div>
+									</div>
+								</div>
+
+								<div class="js-timeline_item ag-timeline_item">
+									<div class="ag-timeline-card_box">
+										<div class="ag-timeline-card_meta-box">
+											<div class="ag-timeline-card_meta">PSLV</div>
+										</div>
+										<div
+											class="js-timeline-card_point-box ag-timeline-card_point-box"
+										>
+											<div class="ag-timeline-card_point">1990</div>
+										</div>
+									</div>
+									<div class="ag-timeline-card_item">
+										<div class="ag-timeline-card_inner">
+											<div class="ag-timeline-card_img-box">
+												<img
+													src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/11/07/936063-isro-1.jpg"
+													class="ag-timeline-card_img"
+													width="640"
+													height="360"
+													alt=""
+												/>
+											</div>
+											<div class="ag-timeline-card_info">
+												<!-- <div class="ag-timeline-card_title">Season 10</div> -->
+												<div class="ag-timeline-card_desc">
+													The arrival of PSLV in 1990s became a major boost for
+													the Indian space program. With the exception of its
+													first flight in 1994 and two partial failures later,
+													PSLV had a streak of more than 50 successful flights.
+													PSLV enabled India to launch all of its low Earth
+													orbit satellites, small payloads to GTO and hundreds
+													of foreign satellites.[32] Along with the PSLV
+													flights, development of a new rocket, a Geosynchronous
+													Satellite Launch Vehicle (GSLV) was going on
+												</div>
+											</div>
+										</div>
+										<div class="ag-timeline-card_arrow"></div>
+									</div>
+								</div>
+
+								<div class="js-timeline_item ag-timeline_item">
+									<div class="ag-timeline-card_box">
+										<div
+											class="js-timeline-card_point-box ag-timeline-card_point-box"
+										>
+											<div class="ag-timeline-card_point">2008</div>
+										</div>
+										<div class="ag-timeline-card_meta-box">
+											<div class="ag-timeline-card_meta">Chandrayaan 1</div>
+										</div>
+									</div>
+									<div class="ag-timeline-card_item">
+										<div class="ag-timeline-card_inner">
+											<div class="ag-timeline-card_img-box">
+												<img
+													src="https://cdn.britannica.com/92/126092-050-7A610AAE/Artist-conception-lunar-probe-Chandrayaan-1.jpg"
+													class="ag-timeline-card_img"
+													width="640"
+													height="360"
+													alt=""
+												/>
+											</div>
+											<div class="ag-timeline-card_info">
+												<div class="ag-timeline-card_title">Season 9</div>
+												<div class="ag-timeline-card_desc">
+													Then Prime Minister of India Atal Bihari Vajpayee
+													announced the Chandrayaan 1 project on course in his
+													Independence Day speech on 15 August 2003.[26] The
+													mission was a major boost to India's space program. It
+													was launched by the Indian Space Research Organisation
+													in October 2008, and operated until August 2009. The
+													mission included a lunar orbiter and an impactor.
+													India launched the spacecraft using a PSLV-XL rocket
+													on 22 October 2008 at 00:52 UTC from Satish Dhawan
+													Space Centre, at Sriharikota, Andhra Pradesh.[7] The
+													mission was a major boost to India's space program,[8]
+													as India researched and developed indigenous
+													technology to explore the Moon.[9] The vehicle was
+													inserted into lunar orbit on 8 November 2008.
+												</div>
+											</div>
+										</div>
+										<div class="ag-timeline-card_arrow"></div>
+									</div>
+								</div>
+
+								<div class="js-timeline_item ag-timeline_item">
+									<div class="ag-timeline-card_box">
+										<div class="ag-timeline-card_meta-box">
+											<div class="ag-timeline-card_meta">Mangalyaan</div>
+										</div>
+										<div
+											class="js-timeline-card_point-box ag-timeline-card_point-box"
+										>
+											<div class="ag-timeline-card_point">2013</div>
+										</div>
+									</div>
+									<div class="ag-timeline-card_item">
+										<div class="ag-timeline-card_inner">
+											<div class="ag-timeline-card_img-box">
+												<img
+													src="https://apuedge.com//wp-content/uploads/AdobeStock_225316801eee.jpg"
+													class="ag-timeline-card_img"
+													width="640"
+													height="360"
+													alt=""
+												/>
+											</div>
+											<div class="ag-timeline-card_info">
+												<div class="ag-timeline-card_title">Season 8</div>
+												<div class="ag-timeline-card_desc">
+													The Mars Orbiter Mission probe lifted-off from the
+													First Launch Pad at Satish Dhawan Space Centre
+													(Sriharikota Range SHAR), Andhra Pradesh, using a
+													Polar Satellite Launch Vehicle (PSLV) rocket C25 at
+													09:08 UTC on 5 November 2013.[5][22] The launch window
+													was approximately 20 days long and started on 28
+													October 2013.[6] The MOM probe spent about a month in
+													Earth orbit, where it made a series of seven
+													apogee-raising orbital manoeuvres before trans-Mars
+													injection on 30 November 2013 (UTC).[23] After a
+													298-day transit to Mars, it was put into Mars orbit on
+													24 September 2014.
+												</div>
+											</div>
+										</div>
+										<div class="ag-timeline-card_arrow"></div>
+									</div>
+								</div>
+
+								<div class="js-timeline_item ag-timeline_item">
+									<div class="ag-timeline-card_box">
+										<div
+											class="js-timeline-card_point-box ag-timeline-card_point-box"
+										>
+											<div class="ag-timeline-card_point">2019</div>
+										</div>
+										<div class="ag-timeline-card_meta-box">
+											<div class="ag-timeline-card_meta">Chandrayaan 2</div>
+										</div>
+									</div>
+									<div class="ag-timeline-card_item">
+										<div class="ag-timeline-card_inner">
+											<div class="ag-timeline-card_img-box">
+												<img
+													src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/08/16/991064-chandrayaan-2.jpg"
+													class="ag-timeline-card_img"
+													width="640"
+													height="360"
+													alt=""
+												/>
+											</div>
+											<div class="ag-timeline-card_info">
+												<div class="ag-timeline-card_title">Chandrayaan 2</div>
+												<div class="ag-timeline-card_desc">
+													Chandrayaan-2 mission is a highly complex mission,
+													which represents a significant technological leap
+													compared to the previous missions of ISRO, which
+													brought together an Orbiter, Lander and Rover with the
+													goal of exploring south pole of the Moon. This is a
+													unique mission which aims at studying not just one
+													area of the Moon but all the areas combining the
+													exosphere, the surface as well as the sub-surface of
+													the moon in a single mission.
+												</div>
+											</div>
+										</div>
+										<div class="ag-timeline-card_arrow"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__addr">
+				<!-- <h1 class="footer__logo">Something</h1> -->
+
+				<h2>Contact</h2>
+
+				<address>
+					U R Rao Satellite Centre (URSC) Old Airport Road Vimanapura Post,
+					Bengaluru - 560 017 Karnataka, India<br />
+
+					<a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+				</address>
+			</div>
+
+			<ul class="footer__nav">
+				<li class="nav__item">
+					<h2 class="nav__title">Media</h2>
+
+					<ul class="nav__ul">
+						<li>
+							<a href="#">Online</a>
+						</li>
+
+						<li>
+							<a href="#">Print</a>
+						</li>
+
+						<li>
+							<a href="#">Alternative Ads</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="nav__item nav__item--extra">
+					<h2 class="nav__title">Technology</h2>
+
+					<ul class="nav__ul nav__ul--extra">
+						<li>
+							<a href="#">Hardware Design</a>
+						</li>
+
+						<li>
+							<a href="#">Software Design</a>
+						</li>
+
+						<li>
+							<a href="#">Digital Signage</a>
+						</li>
+
+						<li>
+							<a href="#">Automation</a>
+						</li>
+
+						<li>
+							<a href="#">Artificial Intelligence</a>
+						</li>
+
+						<li>
+							<a href="#">IoT</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="nav__item">
+					<h2 class="nav__title">Legal</h2>
+
+					<ul class="nav__ul">
+						<li>
+							<a href="#">Privacy Policy</a>
+						</li>
+
+						<li>
+							<a href="#">Terms of Use</a>
+						</li>
+
+						<li>
+							<a href="#">Sitemap</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<div class="legal">
+				<p>
+					&copy; 2022 Indian Space Research Organisation. All rights reserved.
+				</p>
+
+				<div class="legal__links">
+					<span>Made with <span class="heart">♥</span> by Arpan</span>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
